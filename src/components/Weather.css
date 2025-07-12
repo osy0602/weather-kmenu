@@ -31,10 +31,12 @@
 .country{
     font-weight: 600;
     padding-top:10px;
+    padding-left:10px;
     font-size: x-large;
 }
 .city{
     font-weight: 600;
+    padding-left:10px;
     font-size: x-large;
 }
 .day{
@@ -45,17 +47,18 @@
     display: inline-flex;
     color:#505559;
     font-weight: 500;
+    justify-content: space-evenly;
 }
 .weather-icon{
     width: 100px;
-    margin: 30px
+    margin: 15px
     /* align-self: center; */
 }
 .number{
     display: inline-flex;
 }
 .temperature{
-    font-size: 80px;
+    font-size: 70px;
 }
 .celcius{
     margin-top:15px;
@@ -71,6 +74,7 @@
     color: #525659;
 }
 .today{
+    padding:10px;
     font-size: 20px;
     font-weight: 700;
 }
