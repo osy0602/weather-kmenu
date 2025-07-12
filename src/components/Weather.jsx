@@ -131,6 +131,7 @@ const Weather = () => {
             })
         }catch(error){
             setWeatherData(false);
+            alert("Oops! We couldn't find this city.😥");
             console.error("Error in fetching weather Data");
         };
     }
