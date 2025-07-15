@@ -1,12 +1,56 @@
-# React + Vite
+# 🍚 Weather based Korean Menu Recommender
+![image](https://github.com/osy0602/weather-kmenu/blob/main/src/ui/clear10degree.png)
+![image](https://github.com/osy0602/weather-kmenu/blob/main/src/ui/rain24degree.png)
+![image](https://github.com/osy0602/weather-kmenu/blob/main/src/ui/cloudcold.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br/>
+<br/>
 
-Currently, two official plugins are available:
+# 👉 Link
+<a href = "">
+<img src="https://img.shields.io/badge/click here-a374db?style=for-the-badge&logoColor=white"/>
+</a>
+<br/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br/>
+<br/>
 
-## Expanding the ESLint configuration
+ 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 📝 Features
+- 🔍**City search** : Enter any city to get current weather data using OpenWeather API
+- 🍚**Weather-Based Menu Suggestion**: Recommend a Korean dish based on weather (`condition`) and (`temperature`).
+- 🎬 **Cooking Video**: Each menu includes a YouTube recipe tutorial.
+- 🌍 **Country Name Mapping**: Converts country codes to full names (e.g., `KR` → `Republic of Korea`).
+- 🚫 **Error Handling**: Alerts user if a city is not found.
+
+
+<br/>
+<br/>
+
+## Programming language
+
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<br/>
+
+## Development Tool & Framework
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"/>
+<br/>
+
+
+## Source Code Management
+<img alt="github" src="https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white"> 
+<br/>
+
+
+## API
+
+<img alt="" src="https://img.shields.io/badge/OpenWeather-dc381f?style=for-the-badge">
+
+
+<br/>
+<br/>
+<br/>
+
+
+
