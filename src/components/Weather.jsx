@@ -102,8 +102,14 @@ const Weather = () => {
         "RO": "Romania",
         "AQ" : "Antartica"
 };
-
+    const debounceRef = useRef(null);
     const search = async (city) =>{
+        if (debounceRef.current) return;
+
+        debounceRef.current = setTimeout(() => {
+            debounceRef.current = null;
+        },3000);
+      
         if(city ===""){
             alert("Enter City Name");
             return;
@@ -178,7 +184,7 @@ const Weather = () => {
 
         if (condition === 'Clouds' && temperature >= 30) {
             return {
-                image: Samgyetang,
+                image: Samgye,
                 name: 'Samgyetang',
                 description: 'Replenish your energy with nourishing ginseng chicken soup under the blazing cloudy sky.',
                 foodvideo : 'https://youtu.be/JUmFtHqwrnk?si=T9-ZE8vfWLYKD8xZ'
@@ -187,7 +193,7 @@ const Weather = () => {
         if (condition === 'Clouds' && temperature >= 20) {
             return {
                 image: Samgyeop,
-                name: 'Sagyeopsal',
+                name: 'Samgyeopsal',
                 description: 'Fire up the grill for juicy pork belly nothing beats K-BBQ in warm, cloudy weather. 저기압일때는 고기 앞으로!',
                 foodvideo : 'https://youtu.be/23tRGHUX3qM?si=0n04ZM5S69zttZ08'
             };
@@ -242,10 +248,10 @@ const Weather = () => {
         }
 
         return {
-            image: Jja,
-            name: 'Jjajangmyeon',
-            description: 'Slurp up sweet and savory black bean noodles perfect for any weather.',
-            foodvideo : 'https://youtube.com/shorts/QUBoCClF0Nc?si=GiHyu7MxYWCsxW7f'
+            image: Chicken,
+            name: 'K-Chicken',
+            description: "Korea's sween and crunch chicken is perfect for any weather.",
+            foodvideo : 'https://youtube.com/shorts/u3qDzuBoOnY?si=Jk2WUPyLktii0Qca'
         };
     }
 
