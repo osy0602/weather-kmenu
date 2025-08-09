@@ -1,7 +1,19 @@
-# 🍚 Weather based Korean Menu Recommender
+# 🌦️ What Should I Eat? A Weather-Based Menu Recommender
 ![image](https://github.com/osy0602/weather-kmenu/blob/main/src/ui/clear10degree.png)
-![image](https://github.com/osy0602/weather-kmenu/blob/main/src/ui/rain24degree.png)
-![image](https://github.com/osy0602/weather-kmenu/blob/main/src/ui/cloudcold.png)
+
+This web application solves the daily dilemma of **"What should I eat today?"** by using real-time weather information. Users can receive recommendations for Korean dishes that best suit the current weather in their city and even access a recipe video all at once.
+
+### 1. 🌡️ Real-time Weather-Based Recommendations
+- **Worldwide City Search:** Utilizes the OpenWeather API to fetch real-time data on the current weather, temperature, and country for any city a user enters.
+
+- **Weather-Tailored Menu Suggestions:** Recommends intuitive, context-appropriate Korean dishes based on the weather conditions (e.g., clear, rain, snow) and temperature, such as 'Pajeon on a rainy day' or 'Naengmyeon on a hot day.'
+
+### 2. 🎬 User-Focused Features
+- **Embedded Cooking Tutorials:** Every recommended dish comes with a YouTube recipe tutorial that users can follow immediately, making it easy for anyone to prepare the meal.
+
+- **Clear Country Name Display:** Provides clear information by converting country codes received from the API (e.g., KR) into full country names like 'Republic of Korea.'
+
+- **Robust Error Handling:** Ensures a stable user experience by displaying a clear alert message if a user searches for a non-existent city or if the data fetch fails.
 
 <br/>
 <br/>
@@ -17,12 +29,9 @@
 
  
 
-# 📝 Features
-- 🔍**City search** : Enter any city to get current weather data using OpenWeather API
-- 🍚**Weather-Based Menu Suggestion**: Recommend a Korean dish based on weather (`condition`) and (`temperature`).
-- 🎬 **Cooking Video**: Each menu includes a YouTube recipe tutorial.
-- 🌍 **Country Name Mapping**: Converts country codes to full names (e.g., `KR` → `Republic of Korea`).
-- 🚫 **Error Handling**: Alerts user if a city is not found.
+# 📝 UI/UX
+![image](https://github.com/osy0602/weather-kmenu/blob/main/src/ui/rain24degree.png)
+![image](https://github.com/osy0602/weather-kmenu/blob/main/src/ui/cloudcold.png)
 
 
 <br/>
