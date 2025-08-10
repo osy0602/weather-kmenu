@@ -43,7 +43,7 @@ This web application solves the daily dilemma of **"What should I eat today?"** 
 <br/>
 
 ## Development Tool & Framework
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"/>
+<img src="https://img.shields.io/badge/React+Vite-61DAFB?style=for-the-badge&logo=React&logoColor=white"/>
 <br/>
 
 
